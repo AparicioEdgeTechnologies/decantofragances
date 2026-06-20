@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — DeCanto</title>
+<meta name="description" content="Ponte en contacto con DeCanto, perfumería de Grupo RRA.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">DeCanto <small>Grupo RRA</small></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="breadcrumb">Inicio / Contacto</p>
+      <h1>Hablemos de fragancias</h1>
+      <p>¿Dudas sobre un acorde, un pedido al mayoreo o una alianza con Grupo RRA? Escríbenos.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+      <form class="contact-form reveal" id="contact-form">
+        <div class="field">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="telefono">Teléfono (opcional)</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="field">
+          <label for="motivo">Motivo</label>
+          <select id="motivo" name="motivo">
+            <option>Consulta general</option>
+            <option>Pedido al mayoreo</option>
+            <option>Distribución / alianzas Grupo RRA</option>
+            <option>Atención post-venta</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Enviar mensaje</button>
+        <p id="form-status" class="form-note"></p>
+      </form>
+
+      <div class="contact-info reveal">
+        <div>
+          <h3>DeCanto · Grupo RRA</h3>
+          <div class="contact-detail">
+            <span class="eyebrow">Correo</span>
+            <a href="mailto:hola@decanto.mx">hola@decanto.mx</a>
+          </div>
+          <div class="contact-detail">
+            <span class="eyebrow">Teléfono</span>
+            <a href="tel:+520000000000">+52 000 000 0000</a>
+          </div>
+          <div class="contact-detail">
+            <span class="eyebrow">Taller y showroom</span>
+            <p>Ciudad de México, México</p>
+          </div>
+          <div class="contact-detail">
+            <span class="eyebrow">Horario de atención</span>
+            <p>Lunes a viernes, 10:00–18:00</p>
+          </div>
+        </div>
+        <div class="map-placeholder">Mapa próximamente</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">DeCanto</p>
+        <p>Perfumería de autor por Grupo RRA. Fragancias compuestas y embotelladas con intención.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Colecciones</h4>
+        <ul>
+          <li><a href="catalogo.html">Línea Metal</a></li>
+          <li><a href="catalogo.html">Línea Canto</a></li>
+          <li><a href="catalogo.html">Línea Nocturna</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:hola@decanto.mx">hola@decanto.mx</a></li>
+          <li><a href="tel:+520000000000">+52 000 000 0000</a></li>
+          <li>Ciudad de México, MX</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> DeCanto — Grupo RRA. Todos los derechos reservados.</span>
+      <span>Diseño e identidad de marca DeCanto</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

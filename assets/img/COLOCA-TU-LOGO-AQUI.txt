@@ -1,0 +1,2 @@
+Coloca aquí el archivo de tu logo (logo.svg o logo.png).
+Luego sigue las instrucciones del README.md para reemplazar el logo de texto por tu imagen.
